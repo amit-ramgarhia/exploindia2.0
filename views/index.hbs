@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EXPLOINDIA</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" />
+    <!-- <link rel="stylesheet" href="animation.css" /> -->
+</head>
+
+<body>
+    <header>
+        <img class="brand" src="images/exploindia.png " alt=" " />
+        <!-- <div class="menu-btn "><i class="fas fa-bars "> </i> </div> -->
+        <div class="navigation">
+            <div class="navigation-items">
+                <a href="#home ">home</a>
+                <a href="#book ">book</a>
+                <a href="#packages ">packages</a>
+                <a href="#services ">services</a>
+                <a href="#review ">review</a>
+                <a href="#contact ">contact</a>
+                <a href="/login">login</a>
+                
+            </div>
+        </div>
+    </header>
+
+    <section class="home" id="home ">
+        <video class="video-slide active" src="1.mp4 " autoplay muted loop></video>
+        <video class="video-slide" src="2.mp4 " autoplay muted loop></video>
+        <video class="video-slide" src="3.mp4 " autoplay muted loop></video>
+        <video class="video-slide" src="4.mp4 " autoplay muted loop></video>
+        <video class="video-slide" src="5.mp4 " autoplay muted loop></video>
+        <!-- <div class="content active "> -->
+        <!-- <h1>Wonderful.<br><span>Island</span></h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+                irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <a href="# ">Read More</a>
+        </div>
+        <div class="content ">
+            <h1>Camping.<br><span>Enjoy</span></h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+                irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <a href="# ">Read More</a>
+        </div>
+        <div class="content ">
+            <h1>Adventures.<br><span>Off Road</span></h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+                irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <a href="# ">Read More</a>
+        </div>
+        <div class="content ">
+            <h1>Road Trip.<br><span>Together</span></h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+                irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <a href="# ">Read More</a>
+        </div>
+        <div class="content ">
+            <h1>Feel Nature.<br><span>Relax</span></h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+                irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <a href="# ">Read More</a>
+        </div> -->
+        <div class="media-icons">
+            <a href="# "><i class="fab fa-facebook-f"></i></a>
+            <a href="# "><i class="fab fa-instagram"></i></a>
+            <a href="# "><i class="fab fa-twitter"></i></a>
+        </div>
+        <div class="slider-navigation">
+            <div class="nav-btn active"></div>
+            <div class="nav-btn"></div>
+            <div class="nav-btn"></div>
+            <div class="nav-btn"></div>
+            <div class="nav-btn"></div>
+        </div>
+    </section>
+
+    <!-- BOOKING SECTION -->
+    <section class="book" id="book">
+        <h1 class="heading">
+            <div class="fadeInTop">
+                <span>b</span>
+                <span>o</span>
+                <span>o</span>
+                <span>k</span>
+                <span class="space"></span>
+                <span>n</span>
+                <span>o</span>
+                <span>w</span>
+            </div>
+        </h1>
+
+        <div class="row">
+            <div class="image">
+                <div class="fadeInLeft">
+                    <img src="images/book-img2.svg " alt=" " />
+                </div>
+            </div>
+
+            <form action="/bookings " method="post">
+                <div class="fadeInRight">
+                    <div class="inputBox">
+                        <h3>where to</h3>
+                        <input type="text " placeholder="place name " name="location" />
+                    </div>
+                    <div class="inputBox">
+                        <h3>how many</h3>
+                        <input type="number " placeholder="number of guests " name="members"/>
+                    </div>
+                    <div class="inputBox">
+                        <h3>arrivals</h3>
+                        <input type="date "  name="arriving_date"/>
+                    </div>
+                    <div class="inputBox">
+                        <h3>leaving</h3>
+                        <input type="date " name="leaving_date"/>
+                    </div>
+                   
+                    <input type="button" class="btn" value="book now">
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <!-- packages section start -->
+
+    <section class="packages" id="packages ">
+        <h1 class="heading fadeInTop">
+            <span>p</span>
+            <span>a</span>
+            <span>c</span>
+            <span>k</span>
+            <span>a</span>
+            <span>g</span>
+            <span>e</span>
+            <span>s</span>
+        </h1>
+
+        <div class="container">
+            <div class="row">
+                <div class="column">
+                    <div class="effect">
+                        <div class="effect-img">
+                            <div class="fadeInLeft">
+                                <img src="images/goa1.jpg " alt=" " />
+                            </div>
+                        </div>
+                        <div class="effect-text">
+                            <div class="inner">
+                                <h2>GOA</h2>
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quaerat velit qui quos repellat nulla cum soluta exceptu
+                                </p>
+                                <div class="effect-btn">
+                                    <a href="packages/Goa.html " class="btn"><i class="fa fa-eye"></i> Read More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="column">
+                    <div class="effect">
+                        <div class="effect-img">
+                            <div class="fadeInTop">
+                                <img src="images/Rishikesh.jpg " alt=" " />
+                            </div>
+                        </div>
+                        <div class="effect-text">
+                            <div class="inner">
+                                <h2>Rishikesh</h2>
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quaerat velit qui quos repellat nulla cum soluta exceptu
+                                </p>
+                                <div class="effect-btn">
+                                    <a href="# " class="btn"><i class="fa fa-eye"></i> Read More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="column">
+                    <div class="effect">
+                        <div class="effect-img">
+                            <div class="fadeInRight">
+                                <img src="images/Pemayangtse-Monastery.jpg " alt=" " />
+                            </div>
+                        </div>
+                        <div class="effect-text">
+                            <div class="inner">
+                                <h2>gangtok</h2>
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quaerat velit qui quos repellat nulla cum soluta exceptu
+                                </p>
+                                <div class="effect-btn">
+                                    <a href="# " class="btn"><i class="fa fa-eye"></i> Read More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="column">
+                    <div class="effect">
+                        <div class="effect-img">
+                            <div class="fadeInLeft">
+                                <img src="images/manali.jpg " alt=" " />
+                            </div>
+                        </div>
+                        <div class="effect-text">
+                            <div class="inner">
+                                <h2>manali</h2>
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quaerat velit qui quos repellat nulla cum soluta exceptu
+                                </p>
+                                <div class="effect-btn">
+                                    <a href="# " class="btn"><i class="fa fa-eye"></i> Read More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="column">
+                    <div class="effect">
+                        <div class="effect-img">
+                            <div class="fadeInTop">
+                                <img src="images/ladakh.jpg " alt=" " />
+                            </div>
+                        </div>
+                        <div class="effect-text">
+                            <div class="inner">
+                                <h2>ladakh</h2>
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quaerat velit qui quos repellat nulla cum soluta exceptu
+                                </p>
+                                <div class="effect-btn">
+
+                                    <a href="# " class="btn"><i class="fa fa-eye"></i> Read More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="column">
+                    <div class="effect">
+                        <div class="effect-img">
+                            <div class="fadeInRight">
+                                <img src="images/kerala.jpg " alt=" " />
+                            </div>
+                        </div>
+                        <div class="effect-text">
+                            <div class="inner">
+                                <h2>kerala</h2>
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quaerat velit qui quos repellat nulla cum soluta exceptu
+                                </p>
+                                <div class="effect-btn">
+                                    <div class="fadeIntop"></div>
+                                    <a href="# " class="btn"><i class="fa fa-eye"></i> Read More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="column">
+                    <div class="effect">
+                        <div class="effect-img">
+                            <div class="fadeInLeft">
+                                <img src="images/golden-temple.jpg " alt=" " />
+                            </div>
+                        </div>
+                        <div class="effect-text">
+                            <div class="inner">
+                                <h2>Amritsar</h2>
+                                <p>
+                                    golden temple, Wagah Border Ceremony, Jallianwala Bagh, Mandir Mata Lal Devi and punjabi Restaurants.
+                                </p>
+                                <div class="effect-btn">
+                                    <a href="packages/amritsar.html " class="btn"><i class="fa fa-eye"></i> Read
+                                        More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="column">
+                    <div class="effect">
+                        <div class="effect-img">
+                            <div class="fadeInTop">
+                                <img src="images/diu-island.jpg " alt=" " />
+                            </div>
+                        </div>
+                        <div class="effect-text">
+                            <div class="inner">
+                                <h2>Diu Island</h2>
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quaerat velit qui quos repellat nulla cum soluta exceptu
+                                </p>
+                                <div class="effect-btn">
+                                    <a href="# " class="btn"><i class="fa fa-eye"></i> Read More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="column">
+                    <div class="effect">
+                        <div class="effect-img">
+                            <div class="fadeInRight">
+                                <img src="images/caves.jpg " alt=" " />
+                            </div>
+                        </div>
+                        <div class="effect-text">
+                            <div class="inner">
+                                <h2>Ajanta & Alora caves</h2>
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quaerat velit qui quos repellat nulla cum soluta exceptu
+                                </p>
+                                <div class="effect-btn">
+                                    <a href="# " class="btn"><i class="fa fa-eye"></i> Read More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- packages section ends -->
+
+    <!-- services section starts  -->
+
+    <section class="services" id="services ">
+        <h1 class="heading fadeInTop">
+            <span>s</span>
+            <span>e</span>
+            <span>r</span>
+            <span>v</span>
+            <span>i</span>
+            <span>c</span>
+            <span>e</span>
+            <span>s</span>
+        </h1>
+
+        <div class="box-container">
+            <div class="box">
+                <i class="fas fa-hotel"></i>
+                <h3>affordable hotels</h3>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore commodi earum, quis voluptate exercitationem ut minima itaque iusto ipsum corrupti!
+                </p>
+            </div>
+            <div class="box">
+                <i class="fas fa-utensils"></i>
+                <h3>food and drinks</h3>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore commodi earum, quis voluptate exercitationem ut minima itaque iusto ipsum corrupti!
+                </p>
+            </div>
+            <div class="box">
+                <i class="fas fa-bullhorn"></i>
+                <h3>safty guide</h3>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore commodi earum, quis voluptate exercitationem ut minima itaque iusto ipsum corrupti!
+                </p>
+            </div>
+            <div class="box">
+                <i class="fas fa-globe-asia"></i>
+                <h3>around the India</h3>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore commodi earum, quis voluptate exercitationem ut minima itaque iusto ipsum corrupti!
+                </p>
+            </div>
+            <div class="box">
+                <i class="fas fa-plane"></i>
+                <h3>fastest travel</h3>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore commodi earum, quis voluptate exercitationem ut minima itaque iusto ipsum corrupti!
+                </p>
+            </div>
+            <div class="box">
+                <i class="fas fa-hiking"></i>
+                <h3>adventures</h3>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore commodi earum, quis voluptate exercitationem ut minima itaque iusto ipsum corrupti!
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- services section ends -->
+
+    <!-- contact section starts  -->
+
+    <section class="contact" id="contact ">
+        <h1 class="heading fadeInTop">
+            <span>c</span>
+            <span>o</span>
+            <span>n</span>
+            <span>t</span>
+            <span>a</span>
+            <span>c</span>
+            <span>t</span>
+        </h1>
+
+        <div class="row">
+            <div class="image">
+                <img src="images/contact.svg " alt=" " />
+            </div>
+
+            <form action=" ">
+                <div class="inputBox">
+                    <input type="text " placeholder="name " />
+                    <input type="email " placeholder="email " />
+                </div>
+                <div class="inputBox">
+                    <input type="number " placeholder="number " />
+                    <input type="text " placeholder="subject " />
+                </div>
+                <textarea placeholder="message " name=" " id=" " cols="30 " rows="10 "></textarea>
+                <input type="submit" value="send message" class="btn">
+            </form>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col">
+                    <h4>company</h4>
+                    <ul>
+                        <li><a href="# ">about us</a></li>
+                        <li><a href="# ">our services</a></li>
+                        <li><a href="# ">privacy policy</a></li>
+                        <li><a href="# ">affiliate program</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>get help</h4>
+                    <ul>
+                        <li><a href="# ">FAQ</a></li>
+                        <li><a href="# ">booking</a></li>
+                        <li><a href="# ">payment options</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>quick links</h4>
+                    <ul>
+                        <li><a href="#home ">home</a></li>
+                        <li><a href="#book ">book</a></li>
+                        <li><a href="#packages ">packages</a></li>
+                        <li><a href="#services ">services</a></li>
+                        <li><a href="#gallary ">gallery</a></li>
+                        <li><a href="#review ">review</a></li>
+                        <li><a href="#contact ">contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>follow us</h4>
+                    <div class="social-links">
+                        <a href="# "><i class="fab fa-facebook-f"></i></a>
+                        <a href="# "><i class="fab fa-twitter"></i></a>
+                        <a href="# "><i class="fab fa-instagram"></i></a>
+                        <a href="# "><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                    <p id="cr ">copyright &copy; 2022 AmitKumar</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        //Javacript for responsive navigation menu
+        const menuBtn = document.querySelector(".menu-btn");
+        const navigation = document.querySelector(".navigation");
+
+        menuBtn.addEventListener("click", () => {
+            menuBtn.classList.toggle("active");
+            navigation.classList.toggle("active");
+        });
+
+        //Javacript for video slider navigation
+        const btns = document.querySelectorAll(".nav-btn");
+        const slides = document.querySelectorAll(".video-slide");
+        const contents = document.querySelectorAll(".content");
+
+        var sliderNav = function(manual) {
+            btns.forEach((btn) => {
+                btn.classList.remove("active");
+            });
+
+            slides.forEach((slide) => {
+                slide.classList.remove("active");
+            });
+
+            contents.forEach((content) => {
+                content.classList.remove("active");
+            });
+
+            btns[manual].classList.add("active");
+            slides[manual].classList.add("active");
+            contents[manual].classList.add("active");
+        }
+
+        btns.forEach((btn, i) => {
+            btn.addEventListener("click", () => {
+                sliderNav(i);
+            });
+        });
+    </script>
+</body>
+
+</html>
